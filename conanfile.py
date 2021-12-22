@@ -45,7 +45,7 @@ class SDLSoundMkxpConan(ConanFile):
         "with_flac=True",
         "with_speex=False",
     )
-    requires = "sdl2/2.0.8@bincrafters/stable"
+    requires = "sdl/2.0.18"
     generators = "cmake"
     exports_sources = "CMakeLists.txt"
 
